@@ -1,4 +1,12 @@
 spring:
   thymeleaf:
-    cache: false #关闭缓存
+    cache: true #关闭缓存
     prefix: classpath:/views/ #调整页面路径
+
+server:
+  port: 8080
+
+dir:
+  foto: C:/album/photo
+  cover: C:/album/fast/cover
+  prv: C:/album/fast/prv
